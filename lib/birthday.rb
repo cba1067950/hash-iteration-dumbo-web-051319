@@ -20,24 +20,3 @@ def age_appropriate_birthday(birthday_kids)
     end
   end
 end
-
-=begin
-if age > 12
-      puts "You are too old for this." 
-    else
-      puts "Happy Birthday #{name}! You are now #{age} years old!"
-    end
-
-
-
-def select_winner(passengers)
-  # add the code snippet here!
-  winner = ""
-  passengers.each do |key, name|
-    if :suite_a == key && name.start_with?("A")
-      winner = name
-    end
-  end
-  winner
-end
-=end
