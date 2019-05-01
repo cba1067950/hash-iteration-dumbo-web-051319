@@ -7,10 +7,11 @@
 def happy_birthday(birthday_kids)
   # add your code snippet here!
   birthday_kids.each do |name|
-  
+    puts "Happy Birthday #{name}! You are #{:name } years old!"
   end
 end
 
+=begin
 def select_winner(passengers)
   # add the code snippet here!
   winner = ""
@@ -21,3 +22,4 @@ def select_winner(passengers)
   end
   winner
 end
+=end
