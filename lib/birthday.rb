@@ -11,4 +11,13 @@ def happy_birthday(birthday_kids)
   end
 end
 
-
+def select_winner(passengers)
+  # add the code snippet here!
+  winner = ""
+  passengers.each do |key, name|
+    if :suite_a == key && name.start_with?("A")
+      winner = name
+    end
+  end
+  winner
+end
