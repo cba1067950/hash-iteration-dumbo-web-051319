@@ -7,15 +7,19 @@
 def happy_birthday(birthday_kids)
   # add your code snippet here!
   birthday_kids.each do |name, age|
-    if age > 12
-      puts "You are too old for this." 
-    else
-      puts "Happy Birthday #{name}! You are now #{age} years old!"
-    end
+    puts "Happy Birthday #{name}! You are now #{age} years old!"
   end
 end
 
 =begin
+if age > 12
+      puts "You are too old for this." 
+    else
+      puts "Happy Birthday #{name}! You are now #{age} years old!"
+    end
+
+
+
 def select_winner(passengers)
   # add the code snippet here!
   winner = ""
